@@ -80,5 +80,12 @@ $(window).keydown(function(e){
         $("#keyboard > .left").empty();
         $("#keyboard > .right > *:last").appendTo("#keyboard > .left");
         $("#keyboard > * > * > *").unwrap();
+    } else if(e.keyCode == 27) {
+        window.close()
+    } else if(e.keyCode == 122) {
+        //pass fullscreen
+    } else {
+        e.keyCode = null;
+        return false;
     }
 });
