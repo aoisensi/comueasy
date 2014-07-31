@@ -1,0 +1,65 @@
+@font-face {
+    font-family: '07YasashisaGothic';
+    src: url('../font/YasashisaBold.otf') format('opentype');
+}
+
+
+body {
+    font-family: '07YasashisaGothic';
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position:fixed;
+    margin: 0;
+    cursor: none;
+}
+
+#monitor {
+    background-color: #ffecb3;
+    height: 240px;
+    text-align: left;
+    font-size: 240px;
+    white-space: nowrap;
+}
+
+#splitline {
+    background-color: #12c700;
+    height: 40px;
+}
+
+#keyboard-template {
+    visibility: hidden;
+}
+
+#keyboard > div {
+    width: 960px;
+    height: 800px;
+    margin: auto;
+}
+
+#keyboard p {
+    width: 120px;
+    height: 120px;
+    font-size: 120px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#keyboard p.sp {
+    color: #212121;
+}
+
+#keyboard .left {
+    background-color: #9fa8da;
+}
+
+#keyboard .right {
+    background-color: #f8bbd0;
+}
+
+#keyboard .h > * {
+    float: right;
+}
+#keyboard > div {
+    float: right;
+}
